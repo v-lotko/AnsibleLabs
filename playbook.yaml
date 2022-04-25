@@ -1,4 +1,6 @@
   - name: "This is test playbook :)"
     hosts: localhost
     connection: local
-  - "Hello!"
+  - name: "Hello! This is test!"
+    hosts: localhost
+    connection: local
